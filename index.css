@@ -1,0 +1,100 @@
+/*-----Introduction_Section-----*/
+
+.intro {
+    padding: 50px 100px;
+    background-image: url(Images/background_3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.introInfo {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 40vw;
+}
+
+.contactBox {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    width: 35vw;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.contactBox a {
+    text-decoration: none;
+    color: #413e3e;
+}
+
+
+/*-----Planes_Section-----*/
+
+.carruselPlans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vw;
+    background: linear-gradient(to left, #1a851f, #598c5c);
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.card-list .card-item {
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    list-style-position: inside;
+    line-height: 3rem;
+    border-radius: 8px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card-list .card-item i {
+    font-size: 2.5rem;
+    margin-right: 100px;
+}
+
+.card-list .card-item p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+    background: #fff;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .swiper-slide-button {
+    color: #fff;
+    margin-top: -50px;
+    transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+    color: #89bb5d;
+}
+
+@media (max-width: 768px) {
+    .slider-wrapper {
+        margin: 0 10px 40px;
+    }
+
+    .slider-wrapper .swiper-slide-button {
+        display: none;
+    }
+}
+
+

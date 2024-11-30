@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/a7fa5fd2a2.js" crossorigin="anonymous"></script>
+    <title>TeleVilla</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="Images/logo.png" alt="main-logo"></a>
+            </div>
+            <ul id="menuList">
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Planes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+        <script>
+            let menuList = document.getElementById("menuList");
+            menuList.style.maxHeight = "0px";
+            function toggleMenu() {
+                if (menuList.style.maxHeight == "0px") {
+                    menuList.style.maxHeight = "300px";
+                } else {
+                    menuList.style.maxHeight = "0px"
+                }
+            }
+        </script>
+    </header>
+ 
+    <main>
+
+        <section class="intro">
+            <article class="introInfo">
+                <h2>Conexión y Entretenimiento Sin Límites</h2>
+                <p>En Televilla, trabajamos para llevar entretenimiento y conectividad de calidad a nuestra región. Con servicios de televisión por cable y acceso a internet confiable, conectamos hogares, negocios y familias, impulsando el desarrollo y fortaleciendo los lazos en nuestra comunidad.</p>
+            </article>
+            <article class="contactBox">
+                <a href="#"><h3>Contactanos a este numero de Whatsapp</h3></a>
+            </article>
+        </section>
+
+        
+        <!---CTRL+SHIFT+L para seleccionar varios elementos iguales-->
+        <section class="carruselPlans">
+            <div class="containerr swiper">
+                <div class="slider-wrapper">
+                    <div class="card-list swiper-wrapper">
+    
+                        <div class="card-item swiper-slide">
+                            <i class="fa-solid fa-wifi"></i>
+                            <i class="fa-solid fa-tv"></i>
+                            <h2>40 MEGAS + TV</h2>
+                            <ul>
+                                <li>Excelente servicio garantizado</li>
+                                <li>100% fibra optica</li>
+                                <li>Mayor velocidad y mas estabilidad.</li>
+                                <li>Mas de 50 canales de TV</li>
+                            </ul>
+                            <p>$40.000 / Mes</p>
+                        </div>
+        
+                        <div class="card-item swiper-slide">
+                            <i class="fa-solid fa-wifi"></i>
+                            <i class="fa-solid fa-tv"></i>
+                            <h2>70 MEGAS + TV</h2>
+                            <ul>
+                                <li>Excelente servicio garantizado</li>
+                                <li>100% fibra optica</li>
+                                <li>Mayor velocidad y mas estabilidad.</li>
+                                <li>Mas de 50 canales de TV</li>
+                            </ul>
+                            <p>$50.000 / Mes</p>
+                        </div>
+        
+                        <div class="card-item swiper-slide">
+                            <i class="fa-solid fa-wifi"></i>
+                            <i class="fa-solid fa-tv"></i>
+                            <h2>90 MEGAS + TV</h2>
+                            <ul>
+                                <li>Excelente servicio garantizado</li>
+                                <li>100% fibra optica</li>
+                                <li>Mayor velocidad y mas estabilidad.</li>
+                                <li>Mas de 50 canales de TV</li>
+                            </ul>
+                            <p>$80.000 / Mes</p>
+                        </div>
+        
+                        <div class="card-item swiper-slide">
+                            <i class="fa-solid fa-wifi"></i>
+                            <i class="fa-solid fa-tv"></i>
+                            <h2>150 MEGAS + TV</h2>
+                            <ul>
+                                <li>Excelente servicio garantizado</li>
+                                <li>100% fibra optica</li>
+                                <li>Mayor velocidad y mas estabilidad.</li>
+                                <li>Mas de 50 canales de TV</li>
+                            </ul>
+                            <p>$110.000 / Mes</p>
+                        </div>
+        
+                        <div class="card-item swiper-slide">
+                            <i class="fa-solid fa-wifi"></i>
+                            <i class="fa-solid fa-tv"></i>
+                            <h2>300 MEGAS + TV</h2>
+                            <ul>
+                                <li>Excelente servicio garantizado</li>
+                                <li>100% fibra optica</li>
+                                <li>Mayor velocidad y mas estabilidad.</li>
+                                <li>Mas de 50 canales de TV</li>
+                            </ul>
+                            <p>$140.000 / Mes</p>
+                        </div>
+           
+                    </div>
+        
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+            <!--Enlazar_archivos_JavaScript-->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script src="script.js"></script>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="ftr">
+                <h3>Acerca de</h3>
+                <ul class="content">
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Work</a></li>
+                </ul>
+            </div>
+            <div class="ftr">
+                <h3>Contacto</h3>
+                <ul class="content">
+                    <li><a href="#">info@gmail.com</a></li>
+                    <li><a href="#">(707) 322-22-322</a></li>
+                    <li><a href="#">Richmond, VA, 2203</a></li>
+                </ul>
+            </div>
+            <div class="ftr">
+                <h3>Siguenos en:</h3>
+                <ul class="content">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+                </ul>
+            </div>
+            <div class="ftr">
+                <h3>Join Our Newsletter</h3>
+                <form action="#">
+                    <input type="email" placeholder="Enter Your Email." required>
+                    <div class="btn">
+                        <input type="submit" value="Subscribe">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
