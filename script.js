@@ -1,8 +1,8 @@
 const swiper = new Swiper('.slider-wrapper', {
-    loop: true,
+    // loop: true,
     grabCursor: true,
     spaceBetween: 30,
-  
+
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',

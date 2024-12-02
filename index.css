@@ -35,10 +35,18 @@
 
 .carruselPlans {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 50vw;
-    background: linear-gradient(to left, #1a851f, #598c5c);
+    min-height: 60vw;
+    background-color: #777272;
+}
+
+.introPlans {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 50px 70px;
 }
 
 .slider-wrapper {
