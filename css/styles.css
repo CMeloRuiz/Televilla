@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*-----Header-----*/
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav {
+    background-color: #3b793f;
+    padding: 5px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainLogo {
+    width: 100px;
+    height: 100px;
+}
+
+.mainLogo img {
+    width: 100%;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menuBar {
+    display: none;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#menuList a {
+    color: #ffffff;
+}
+
+@media (max-width: 900px) {
+
+    nav {
+        padding: 5px 30px;
+    }
+
+    .menuBar {
+        display: block;
+    }
+
+    .menu ul {
+        background-color: #3b793f;
+        position: absolute;
+        top: 110px;
+        left: 0; 
+        right: 0; 
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        overflow: hidden;
+    }
+
+    .menu ul li {
+        padding: 20px;
+    }
+
+    #menuList {
+        transition: all 0.5s;
+    }
+
+}
+
+
+/*-----Hero-----*/
+
+.hero {
+    padding: 100px;
+    background-image: url(/Images/bg_televilla1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroCont {
+    width: 50vw;
+    color: #ffffff;
+}
+
+.heroCont h2 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.heroCont p {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.contactHero a{
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 100px;
+    padding: 10px 25px;
+    font-size: 25px;
+}
+
+.contactHero i {
+    font-size: 1.5em;
+    color: #68c97b;
+}
+
+.contactHero a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/*-----Beneficios-----*/
+
+.benefits {
+    padding: 100px;
+    background-color: #77bb6a;
+}
+
+.benefitsCont h2 {
+    color: #262424;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3em;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+.benefit {
+    color: #262424;
+    font-size: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.benefit h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.benefit img {
+    width: 30vw;
+    margin-right: 20px;
+}
+
+
+/*-----Footer-----*/
+
+.footerCont {
+    background-color: #222222;
+    color: #d2caca;
+    font-size: 22px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+
+.footerCont h3 {
+    font-size: 28px;
+    border-bottom: 3px solid rgb(50, 106, 43);
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.aboutFooter {
+    width: 20vw;
+    font-size: 18px;
+}
+
+.contactFooter ul li i {
+    margin-right: 20px;
+}
+
+@media (max-width: 900px) {
+
+    .footerCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .aboutFooter,
+    .contactFooter,
+    .socialHeader {
+        text-align: center;
+        width: 50vw;
+        margin-bottom: 50px;
+    }
+
+}
+

@@ -1,0 +1,9 @@
+- Formulario de contacto
+- Crear seccion de PQRs
+- Crear seccion de testimonios en la pagina principal
+- Poner el copyright debajo del footer
+- Hacer pagina responsive
+- Hacerle el posicionamiento SEO.
+- Colocar plan de solo TV 22.000 mensuales
+
+Asociacion de Usuarios del sistema de telecomunicaciones de Villapinzon - Televilla

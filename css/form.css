@@ -1,0 +1,98 @@
+body {
+    background-color: #9bda90;
+}
+
+.formContainer {
+    background: linear-gradient(to right, #3b793f 50%, #FFFFFF 50%);
+    border-radius: 10px;
+    margin: 3rem 15rem;
+    display: flex;
+}
+
+.formInfo, 
+.formInput {
+    width: 50vw;
+    padding: 50px 40px;
+}
+
+.formInput h2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.formContainer input, textarea {
+    background-color: #3b793f;
+    border: 2px solid #ffffff;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    outline: none;
+    resize: none;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+#submitBtn {
+    width: 30%;
+    background: #FFFFFF;
+    color: #3b793f;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+#submitBtn:hover {
+    background-color: #3b793f;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.formInfo h2 {
+    color: #3b793f;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.formInfo p {
+    margin-bottom: 50px;
+    color: #3d3b3b;
+}
+
+.btn {
+    text-align: center;
+}
+
+.contactItems {
+    margin-bottom: 30px;
+}
+
+.contactItem i {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #3d3b3b;
+
+}
+
+.formInfo span {
+    color: #3d3b3b;
+}
+
+.socialItem {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.socialItem i {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3e8241;
+    font-size: 20px;
+    color: #ffffff;
+}

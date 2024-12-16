@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/a7fa5fd2a2.js" crossorigin="anonymous"></script>
+    <title>Televilla</title>
+</head>
+<body>
+    
+    <header>
+
+        <nav>
+            <div class="mainLogo">
+                <a href="/html/index.html"><img src="/images/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul id="menuList">
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="/html/services.html">Servicios</a></li>
+                    <li><a href="/html/plans.html">Planes</a></li>
+                    <li><a href="/html/form.html">Contactos</a></li>
+                </ul>
+            </div>
+            <div class="menuBar">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+
+        <script src="/js/script.js"></script>
+        
+    </header>
+
+    <main>
+        <section class="hero">
+            <article class="heroCont">
+                <h2>Internet y Televisión<br>Con Innovación, Calidad y Entretenimiento</h2>
+                <p>En Televilla llevamos la conexión y el entretenimiento a otro nivel, combinando tecnología avanzada con un servicio de alta calidad.</p>
+            </article>
+            <article class="contactHero">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>312 5013121</span>
+                </a>
+            </article>
+        </section>
+
+        <!---CTRL+SHIFT+L para seleccionar varios elementos iguales-->
+        
+        <section class="benefits">
+            <div class="benefitsCont">
+                <h2>¿Por que Elegirnos?</h2>
+                <div class="benefit">
+                    <div class="benefitInfo">
+                        <h3>Conexión confiable, entretenimiento garantizado</h3>
+                        <p>En Televilla, trabajamos para ofrecerte lo mejor en entretenimiento y conectividad. Nuestro servicio de televisión por cable incluye más de 50 canales cuidadosamente seleccionados, con opciones que abarcan noticias, deportes, películas, programas educativos y contenido infantil.Así, garantizamos que cada miembro de tu familia encuentre algo que disfrutar.</p>
+                    </div>
+                    <img src="/Images/benefit_a.jpg" alt="" data-aos="fade-left">
+                </div>
+                <div class="benefit">
+                    <img src="/Images/benefit_b.jpg" alt="" data-aos="fade-right">
+                    <div class="benefitInfo">
+                        <h3>Compromiso con nuestra comunidad</h3>
+                        <p>Somos una empresa orgullosamente comunitaria, comprometida con Villapinzón y su gente. Entendemos las necesidades únicas de nuestra región y trabajamos con dedicación para satisfacerlas con servicios de calidad y precios accesibles. Nuestro equipo local está siempre dispuesto a atenderte con un trato cercano y personalizado, porque valoramos la confianza que depositas en nosotros.</p>
+                    </div>
+                </div>
+                <div class="benefit">
+                    <div class="benefitInfo">
+                        <h3>Tecnología de punta al alcance de todos</h3>
+                        <p>En Televilla, combinamos innovación tecnológica con accesibilidad. Nuestra infraestructura de fibra óptica garantiza una experiencia de internet de alta velocidad que se adapta a las necesidades actuales, desde realizar videollamadas sin interrupciones hasta disfrutar de contenido en streaming en calidad HD.</p>
+                    </div>
+                    <img src="/Images/benefit_c.jpg" alt="" data-aos="fade-left">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false,
+        });
+    </script>
+
+    <footer>
+        <div class="footerCont">
+
+            <div class="aboutFooter">
+                <h3>Acerca de</h3>
+                <p>Conectamos a Villapinzón con más de 50 canales de televisión y un internet de fibra óptica rápido y confiable. Ofrecemos un servicio cercano y accesible diseñado para transformar tu experiencia digital.</p>
+            </div>
+
+            <div class="contactFooter">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>Cra 5 No 3 - 72 Oficina 202</li>
+                    <li><i class="fa-solid fa-location-dot"></i>Villapinzón - Cundinamarca</li>
+                    <li><i class="fa-solid fa-phone"></i>312 5013121</li>
+                    <li><i class="fa-solid fa-envelope"></i>televilla@hotmail.com</li>
+                </ul>
+            </div>
+
+            <div class="socialHeader">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
