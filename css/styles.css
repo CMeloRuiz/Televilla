@@ -37,7 +37,7 @@ nav {
 
 .menu ul {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -112,26 +112,6 @@ nav {
     font-weight: 400;
 }
 
-.contactHero a{
-    border: 2px solid white;
-    border-radius: 30px;
-    margin: 100px;
-    padding: 10px 25px;
-    font-size: 25px;
-}
-
-.contactHero i {
-    font-size: 1.5em;
-    color: #68c97b;
-}
-
-.contactHero a {
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
 
 /*-----Beneficios-----*/
 
@@ -173,28 +153,57 @@ nav {
 
 .footerCont {
     background-color: #222222;
-    color: #d2caca;
-    font-size: 22px;
+    font-size: 18px;
     padding: 100px;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
     line-height: 40px;
 }
 
 .footerCont h3 {
-    font-size: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
     border-bottom: 3px solid rgb(50, 106, 43);
     margin-bottom: 30px;
     display: inline-block;
 }
 
-.aboutFooter {
+.footerItem {
     width: 20vw;
-    font-size: 18px;
 }
 
-.contactFooter ul li i {
-    margin-right: 20px;
+.footerItem li, a {
+    color: #9ca09d;
+    transition: all 0.5s;
+}
+
+.footerSocial {
+    display: flex;
+    gap: 10px;
+}
+
+.footerSocial i {
+    border-radius: 50px;
+    background-color: #525552;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.footerSocial i:hover {
+    background-color: #467c46;
+}
+
+.footerLinks:hover {
+    color: #ffffff;
+    padding-left: 10px;
 }
 
 @media (max-width: 900px) {
@@ -206,9 +215,7 @@ nav {
         gap: 30px;
     }
 
-    .aboutFooter,
-    .contactFooter,
-    .socialHeader {
+    .footerItem {
         text-align: center;
         width: 50vw;
         margin-bottom: 50px;

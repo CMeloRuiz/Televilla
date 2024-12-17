@@ -1,9 +1,15 @@
-- Formulario de contacto
-- Crear seccion de PQRs
 - Crear seccion de testimonios en la pagina principal
+- Crear seccion de medidor de internet en la pagina principal
 - Poner el copyright debajo del footer
+- Terminar footer
 - Hacer pagina responsive
 - Hacerle el posicionamiento SEO.
 - Colocar plan de solo TV 22.000 mensuales
+- Hacer seccion de nosotros
+- Hacer seccion de servicios
+- Terminar seccion de Planes
+- Señalar nombre de seccion cuando este dentro de esta
+- Crear barra de contacto encima del header
+- Meter mapa del sitio en la pagian principal y dejar testimonios par la seccion de servicios
 
 Asociacion de Usuarios del sistema de telecomunicaciones de Villapinzon - Televilla

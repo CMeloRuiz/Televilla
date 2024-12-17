@@ -1,0 +1,11 @@
+.nosotrosCont {
+    border: 2px solid black;
+    margin: 100px;
+    display: flex;
+}
+
+.nosotrosImg img {
+    width: 550px;
+    height: 550px;
+}
+    
