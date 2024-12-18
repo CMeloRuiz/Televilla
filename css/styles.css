@@ -216,9 +216,14 @@ nav {
     }
 
     .footerItem {
+
         text-align: center;
         width: 50vw;
         margin-bottom: 50px;
+    }
+
+    .footerSocial {
+        justify-content: center;
     }
 
 }

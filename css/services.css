@@ -66,3 +66,25 @@
     color: #d0c7c7;
 }
 
+@media (max-width: 900px) {
+
+    .servicesCont {
+        margin: 50px 10px;
+    }
+
+    .servicesItem,
+    .serviceBtn {
+        width: 100%;
+    }
+
+    .servicesInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicesIntro h1 {
+        font-size: 30px;
+    }
+
+}
