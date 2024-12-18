@@ -3,7 +3,7 @@ body {
 }
 
 .formContainer {
-    background: linear-gradient(to right, #3b793f 50%, #FFFFFF 50%);
+    background: linear-gradient(to left, #3b793f 50%, #FFFFFF 50%);
     border-radius: 10px;
     margin: 100px 150px;
     display: flex;
@@ -97,7 +97,7 @@ body {
 @media (max-width: 900px) {
 
     .formContainer {
-        background: linear-gradient(to bottom, #3b793f 50%, #FFFFFF 50%);
+        background: linear-gradient(to top, #3b793f 50%, #FFFFFF 50%);
         margin: 20px;
         flex-direction: column;
         align-items: center;
@@ -111,11 +111,11 @@ body {
     }
 
     .formInfo {
-        padding: 100px 0;
+        padding: 50px 10px;
     }
 
     #submitBtn {
-        width: 30%;
+        width: 40%;
     }
 
 }

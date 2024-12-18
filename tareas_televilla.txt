@@ -6,10 +6,12 @@
 - Hacerle el posicionamiento SEO.
 - Colocar plan de solo TV 22.000 mensuales
 - Hacer seccion de nosotros
-- Hacer seccion de servicios
+- En seccion de servicios conectar cada uno con su enlace
 - Terminar seccion de Planes
 - Señalar nombre de seccion cuando este dentro de esta
 - Crear barra de contacto encima del header
-- Meter mapa del sitio en la pagian principal y dejar testimonios par la seccion de servicios
+- Meter mapa del sitio en la pagian principal y dejar testimonios para la seccion de servicios
+- Enlazar iconos de redes sociales
+- meter mapa del sitio
 
-Asociacion de Usuarios del sistema de telecomunicaciones de Villapinzon - Televilla
+Asociacion de usuarios del sistema de telecomunicaciones de Villapinzon - Televilla

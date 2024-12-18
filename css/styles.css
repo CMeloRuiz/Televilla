@@ -26,6 +26,22 @@ nav {
     align-items: center;
 }
 
+.mainCont {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainCont span {
+    color: #ffffff;
+    font-size: 12px;
+    width: 220px;
+    height: 80px;
+    border-bottom: 2px solid #a5b722;
+    display: flex;
+    align-items: center;
+}
+
 .mainLogo {
     width: 100px;
     height: 100px;
@@ -39,6 +55,7 @@ nav {
     display: flex;
     gap: 50px;
     align-items: center;
+    
 }
 
 .menuBar {
@@ -50,9 +67,14 @@ nav {
 
 #menuList a {
     color: #ffffff;
+    transition: all 0s;
 }
 
-@media (max-width: 900px) {
+#menuList a:hover {
+    border-bottom: 2px solid #a5b722;
+}
+
+@media (max-width: 1000px) {
 
     nav {
         padding: 5px 30px;
@@ -76,6 +98,13 @@ nav {
 
     .menu ul li {
         padding: 20px;
+    }
+
+    .mainCont span {
+        align-items: center;
+        border-bottom: 2px solid #a5b722;
+        font-size: 11px;
+        width: 190px;
     }
 
     #menuList {
@@ -121,7 +150,7 @@ nav {
 }
 
 .benefitsCont h2 {
-    color: #262424;
+    color: #3a3838;
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-size: 2.3em;
@@ -140,6 +169,8 @@ nav {
 .benefit h3 {
     font-family: "Poppins", sans-serif;
     font-size: 40px;
+    font-weight: 500;
+    color: #224f25;
     margin-bottom: 30px;
 }
 
@@ -190,7 +221,7 @@ nav {
     color: #ffffff;
     width: 50px;
     height: 50px;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,7 +237,7 @@ nav {
     padding-left: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
     .footerCont {
         display: flex;
