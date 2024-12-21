@@ -72,7 +72,6 @@ body {
     font-size: 1.5em;
     margin-right: 10px;
     color: #3d3b3b;
-
 }
 
 .formInfo span {
@@ -91,6 +90,13 @@ body {
     background-color: #3e8241;
     font-size: 20px;
     color: #ffffff;
+}
+
+.siteMap h1 {
+    margin: 50px 100px;
+    color: #3d3c3c;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 
@@ -112,6 +118,10 @@ body {
 
     .formInfo {
         padding: 50px 10px;
+    }
+
+    .siteMap h1 {
+        margin: 20px 50px;
     }
 
     #submitBtn {

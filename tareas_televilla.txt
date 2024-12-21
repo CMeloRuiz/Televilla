@@ -1,17 +1,15 @@
 - Crear seccion de testimonios en la pagina principal
 - Crear seccion de medidor de internet en la pagina principal
 - Poner el copyright debajo del footer
-- Terminar footer
 - Hacer pagina responsive
 - Hacerle el posicionamiento SEO.
 - Colocar plan de solo TV 22.000 mensuales
-- Hacer seccion de nosotros
 - En seccion de servicios conectar cada uno con su enlace
 - Terminar seccion de Planes
 - Señalar nombre de seccion cuando este dentro de esta
 - Crear barra de contacto encima del header
-- Meter mapa del sitio en la pagian principal y dejar testimonios para la seccion de servicios
 - Enlazar iconos de redes sociales
-- meter mapa del sitio
+- Colocar "Desarrollado por VortexDev" al final de la pagina
+- Conectar el formulario al correo
 
 Asociacion de usuarios del sistema de telecomunicaciones de Villapinzon - Televilla
