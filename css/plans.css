@@ -1,23 +1,18 @@
 /*-----Planes-----*/
 
 .carruselPlans {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 50vw;
-    background: linear-gradient(150deg, #27522a, #4f996d);
+    background-color: #ffffff;
 }
 
 .introPlans {
     text-align: center;
-    margin: 50px 70px;
+    margin: 100px;
 }
 
 .introPlans h2 {
-    color: #ffffff;
+    color: #0a3e0d;
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .slider-wrapper {
@@ -27,13 +22,11 @@
 }
 
 .card-list .card-item {
-    color: #fff;
-    user-select: none;
+    background: linear-gradient(to left, #d7e2d7, #bed8c3);
+    color: #212121;
     padding: 35px;
-    list-style-position: inside;
     line-height: 3rem;
-    backdrop-filter: blur(30px);
-    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
 }
 
 .card-list .card-item i {
@@ -48,14 +41,19 @@
     text-align: center;
 }
 
+.card-list .card-item ul li{
+    text-align: left;
+    
+}
+
 .slider-wrapper .swiper-pagination-bullet {
-    background: #fff;
+    background: #4e4b4b;
     height: 15px;
     width: 15px;
 }
 
 .slider-wrapper .swiper-slide-button {
-    color: #fff;
+    color: #454141;
     margin-top: -50px;
     transition: 0.2s ease;
 }
@@ -64,7 +62,7 @@
     color: #89bb5d;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .slider-wrapper {
         margin: 0 10px 40px;
     }

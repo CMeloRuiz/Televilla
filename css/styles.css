@@ -142,6 +142,52 @@ nav {
 }
 
 
+/*-----Quienes Somos-----*/
+
+.quienesSomos {
+    padding: 100px;
+    background-color: #e4eae0;
+}
+
+.quienesSomosIntro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.quienesSomosIntro h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #0a3e0d;
+}
+
+.quienesSomosItems {
+    display: flex;
+    gap: 50px;
+}
+
+.quienesSomosItem {
+    background-color: #cae7cc;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+    line-height: 30px;
+    transition: all 0.7s;
+}
+
+.quienesSomosItem:hover {
+    transform: scale(1.05);
+    background-color: #abdaa9;
+}
+
+.quienesSomosItem h3 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #a5b722;
+    display: inline-block;
+}
+
+
+
 /*-----Beneficios-----*/
 
 .benefits {
@@ -150,11 +196,11 @@ nav {
 }
 
 .benefitsCont h2 {
-    color: #3a3838;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    font-size: 2.3em;
+    font-size: 35px;
     font-weight: 500;
+    color: #0a3e0d;
     margin-bottom: 100px;
 }
 
@@ -258,4 +304,165 @@ nav {
     }
 
 }
+
+
+/*-----Testimonials-----*/
+
+.testimonials {
+    background-color: #ffffff;
+}
+
+.introTestimonials {
+    text-align: center;
+    margin: 100px 0 50px;
+}
+
+.introTestimonials h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #0a3e0d;
+}
+
+.sliderContainer {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.cardList .cardItem {
+    width: 50vw;
+    background: linear-gradient(to left, #83dc83, #449c56);
+    color: #ffffff;
+    padding: 35px;
+}
+
+.cardList .cardItem h3 {
+    font-size: 25px;
+}
+
+.cardList .cardItem i {
+    font-size: 2rem;
+    color: #c3b431;
+    margin-top: 20px;
+}
+
+.cardList .cardItem p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.containerTest {
+    margin-bottom: 30px;
+}
+
+.sliderContainer .swiper-pagination-bullet {
+    background: #4e4b4b;
+    height: 15px;
+    width: 15px;
+}
+
+.sliderContainer .swiper-slide-button {
+    color: #454141;
+    margin-top: -50px;
+    transition: 0.2s ease;
+}
+
+.sliderContainer .swiper-slide-button:hover {
+    color: #89bb5d;
+}
+
+.cardList .cardItem .quote {
+    display: flex;
+    align-items: center;
+}
+
+.cardList .cardItem .quote i {
+    font-size: 50px;
+    margin-right: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.userTest {
+    margin: 20px -35px -35px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    color: #222222;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userTestImg img {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.userTestInfo {
+    line-height: 16px;
+}
+
+
+/*-----Speed Test-----*/
+
+.speedTest {
+    background-color: #c8c0c0;
+    padding: 100px;
+}
+
+.speedTestContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introSpeedTest {
+    width: 50vw;
+}
+
+.introSpeedTest h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #0a3e0d;
+}
+
+.introSpeedTest p {
+    margin: 30px 0 100px;
+}
+
+.imgSpeedTest {
+    width: 400px;
+    height: 400px;
+}
+
+.imgSpeedTest img {
+    width: 100%;
+    height: 100%;
+}
+
+.speedTestBtn {
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 20vw;
+    text-align: center;
+    background-color: #698a5c;
+    color: #222222;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.speedTestBtn:hover {
+    background-color: #376227;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
 
