@@ -1,4 +1,58 @@
+/*-----Planes y Tarifas-----*/
+
+.tvAndInternet {
+    background-color: #a5dda5;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.television {
+    width: 50vw;
+    margin-right: 30px;
+}
+
+.television h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #0a3e0d;
+}
+
+.television p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.television span {
+    font-size: 28px;
+    font-weight: 500;
+    color: #105f14;
+}
+
+.tvImage {
+    width: 40vw;
+    height: 300px;
+}
+
+.tvImage img {
+    width: 100%;
+    height: 100%;
+}
+
+
 /*-----Planes-----*/
+
+.introCombos {
+    margin: 100px;
+    text-align: center;
+} 
+
+.introCombos h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #0a3e0d;
+    margin-bottom: 20px;
+}
 
 .carruselPlans {
     background-color: #ffffff;
@@ -6,13 +60,18 @@
 
 .introPlans {
     text-align: center;
-    margin: 100px;
+    margin: 80px 100px 50px;
 }
 
 .introPlans h2 {
     color: #0a3e0d;
-    font-size: 35px;
+    font-size: 42px;
     font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.containerr {
+    margin-top: 50px;
 }
 
 .slider-wrapper {
@@ -22,16 +81,20 @@
 }
 
 .card-list .card-item {
-    background: linear-gradient(to left, #d7e2d7, #bed8c3);
+    background-color: #a5dda5;
     color: #212121;
-    padding: 35px;
-    line-height: 3rem;
+    padding: 25px;
     text-align: center;
 }
 
-.card-list .card-item i {
-    font-size: 2.5rem;
-    margin-right: 100px;
+.card-list .card-item h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #105f14;
+}
+
+.card-list .card-item img {
+    width: 100px;
 }
 
 .card-list .card-item p {
@@ -39,6 +102,7 @@
     font-weight: 600;
     margin-top: 20px;
     text-align: center;
+    color: #9e7d11;
 }
 
 .card-list .card-item ul li{
@@ -61,6 +125,9 @@
 .slider-wrapper .swiper-slide-button:hover {
     color: #89bb5d;
 }
+
+
+
 
 @media (max-width: 1000px) {
     .slider-wrapper {
