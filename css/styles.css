@@ -141,6 +141,17 @@ nav {
     font-weight: 400;
 }
 
+@media (max-width: 900px) {
+    .hero {
+        padding: 50px;
+    }
+
+    .heroCont {
+        width: 100vw;
+        font-size: 12px;
+    }
+}
+
 
 /*-----Quienes Somos-----*/
 
@@ -186,6 +197,15 @@ nav {
     display: inline-block;
 }
 
+@media (max-width: 1000px) {
+    .quienesSomos {
+        padding: 50px;
+    }
+    .quienesSomosItems {
+        flex-direction: column;
+    }
+}
+
 
 
 /*-----Beneficios-----*/
@@ -225,11 +245,59 @@ nav {
     margin-right: 20px;
 }
 
+@media (max-width: 1000px) {
+    
+    .benefits {
+        padding: 50px;
+    }
+
+    .benefitsCont h2 {
+        margin-bottom: 50px;
+    }
+
+    .benefit h3 {
+        font-size: 30px;
+    }
+
+    .benefit {
+        flex-direction: column;
+        font-size: 18px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .benefitTwo {
+        flex-direction: column-reverse;
+    }
+
+    .benefit img {
+        width: 80vw;
+    }
+}
+
 
 /*-----Footer-----*/
 
-.footerCont {
+footer {
     background-color: #222222;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+    background-color: #9ca09d;
+}
+
+.copyright {
+    text-align: center;
+    padding: 40px 0 50px;
+    color: #9ca09d;
+    font-size: 13px;
+}
+
+.footerCont {
     font-size: 18px;
     padding: 100px;
     display: flex;
@@ -443,10 +511,9 @@ nav {
 }
 
 .speedTestBtn {
-    /* border: 1px solid black; */
     border-radius: 20px;
     padding: 10px 20px;
-    width: 20vw;
+    margin: 0 180px;
     text-align: center;
     background-color: #698a5c;
     color: #222222;
@@ -457,6 +524,28 @@ nav {
 .speedTestBtn:hover {
     background-color: #376227;
     color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+
+    .speedTest {
+        padding: 20px;
+    }
+
+    .speedTestContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introSpeedTest {
+        text-align: center;
+        width: 100%;
+    }
+
+    .testBtn {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 

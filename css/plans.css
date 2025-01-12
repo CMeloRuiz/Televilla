@@ -107,7 +107,6 @@
 
 .card-list .card-item ul li{
     text-align: left;
-    
 }
 
 .slider-wrapper .swiper-pagination-bullet {
@@ -127,14 +126,44 @@
 }
 
 
-
-
 @media (max-width: 1000px) {
-    .slider-wrapper {
-        margin: 0 10px 40px;
+
+    .introPlans {
+        margin: 30px 50px;
     }
 
-    .slider-wrapper .swiper-slide-button {
-        display: none;
+    .introPlans h2 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 20px;
     }
+
+    .tvAndInternet {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 30px;
+    }
+
+    .television {
+        text-align: center;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .tvImage {
+        width: 350px;
+        height: 200px;
+    }
+
+    .introCombos {
+        margin: 30px 50px;
+    }
+
+    .slider-wrapper {
+        margin: 0 50px 40px;
+    }
+
 }
+
+
+
