@@ -26,6 +26,33 @@ nav {
     align-items: center;
 }
 
+.mainHeader {
+    background-color: #0d441c;
+    color: #e6e0e0;
+    font-size: 13px;
+}
+
+.mainHeader a {
+    color: #e6e0e0;
+}
+
+.mainHeaderCont {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.mainHeaderSocialMedia {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.headerPhoneAndEmail {
+    display: flex;
+    gap: 30px;
+}
+
 .mainCont {
     display: flex;
     align-items: center;
@@ -80,6 +107,12 @@ nav {
         padding: 5px 30px;
     }
 
+    .mainHeaderCont {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
     .menuBar {
         display: block;
     }
@@ -87,7 +120,7 @@ nav {
     .menu ul {
         background-color: #3b793f;
         position: absolute;
-        top: 110px;
+        top: 170px;
         left: 0; 
         right: 0; 
         flex-direction: column;

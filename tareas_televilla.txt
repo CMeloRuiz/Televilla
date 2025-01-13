@@ -1,8 +1,6 @@
 - Hacerle el posicionamiento SEO.
-- En seccion de servicios conectar cada uno con su enlace
 - Señalar nombre de seccion cuando este dentro de esta
 - Crear barra de contacto encima del header
-- Enlazar iconos de redes sociales
 - Conectar el formulario al correo
 
 
