@@ -1,6 +1,5 @@
 - Hacerle el posicionamiento SEO.
 - Señalar nombre de seccion cuando este dentro de esta
-- Crear barra de contacto encima del header
 - Conectar el formulario al correo
 
 
