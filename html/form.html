@@ -64,7 +64,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.3249192826769!2d-73.59787563051998!3d5.215527135225459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e402252d15e7b33%3A0xfabae25caa9c9b60!2sCra.%205%20%233-72%2C%20Villapinz%C3%B3n%2C%20Cundinamarca!5e0!3m2!1sen!2sco!4v1734614635142!5m2!1sen!2sco" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
        
-    <form action="">
+    <form action="https://formsubmit.co/televilla@hotmail.com" method="POST" autocomplete="off">
 
         <div class="formContainer">
 
@@ -99,13 +99,13 @@
             <div class="formInput">
                 <h2>Contactanos</h2>
                 <div class="formItem">
-                    <input type="text" placeholder="Nombre">
+                    <input type="text" name="name" placeholder="Nombre">
                 </div>
                 <div class="formItem">
-                    <input type="email" placeholder="Email">
+                    <input type="email" name="email" placeholder="Email">
                 </div>
                 <div class="formItem">
-                    <input type="phone" placeholder="Telefono">
+                    <input type="phone" name="phone" placeholder="Telefono">
                 </div>
                 <div class="formItem">
                     <textarea name="message" id="message" placeholder="Deja tu mensaje"></textarea>
@@ -114,6 +114,10 @@
                 <div class="btn">
                     <input type="submit" value="Enviar" id="submitBtn">
                 </div>
+
+                <!--Evitar Captcha y mensajes adicionales-->
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/html/form.html">
+                <input type="hidden" name="_captcha" value="false">
                 
             </div>
             

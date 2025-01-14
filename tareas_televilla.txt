@@ -1,6 +1,8 @@
 - Hacerle el posicionamiento SEO.
 - Señalar nombre de seccion cuando este dentro de esta
-- Conectar el formulario al correo
+- ojo, cambiar url en la parte del captcha del formulario de contacto cuando se compre hosting y dominio
+
+
 
 
 
